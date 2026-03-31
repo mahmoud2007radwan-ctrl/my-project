@@ -97,6 +97,11 @@ nav {
     width: 100%;
 }
 
+nav {
+    /* الكود الموجود + */
+    transition: opacity 0.3s ease;
+}
+
 /* Active Circle */
 .nav-links a.active::before {
     content: "";
